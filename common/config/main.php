@@ -6,4 +6,9 @@ return [
             'class' => 'yii\caching\FileCache',
         ],
     ],
+    'modules' => [
+        'datecontrol' => [
+            'class' => '\kartik\datecontrol\Module'
+        ]
+    ],
 ];
